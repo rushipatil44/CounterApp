@@ -6,6 +6,15 @@ import Raju from './assets/raju.jpg'
 import HT from './assets/helloThere.jpg'
 import Thala from './assets/thala.png'
 
+import Bhavesh from './assets/snake.jpg'
+import Shivdhan from './assets/blackdiamond.jpg'
+import Soham from './assets/aap.jpg'
+import TusharA from './assets/farfromhome.jpg'
+import Abhay from './assets/congress.jpg'
+import TusharM from './assets/classtopper.jpg'
+import Kadam from './assets/valorant.jpg'
+
+
 function App() {
   let [Counter, setCount] = useState(10)
   let value;
@@ -22,6 +31,27 @@ function App() {
     if( add == 7){
       setImagePath(Thala)
     }
+    if( add == 44){
+      setImagePath(Bhavesh)
+    }
+    if( add == 40){
+      setImagePath(Shivdhan)
+    }
+    if( add == 67){
+      setImagePath(Soham)
+    }
+    if( add == 24){
+      setImagePath(Kadam)
+    }
+    if( add == 35){
+      setImagePath(Abhay)
+    }
+    if( add == 30){
+      setImagePath(TusharM)
+    }
+    if( add == 5){
+      setImagePath(TusharA)
+    }
   }
   const removeCount = () =>{
     if(Counter>1){
@@ -34,6 +64,27 @@ function App() {
     }
     if(Counter == 8){
       setImagePath(Thala)
+    }
+    if(Counter == 45){
+      setImagePath(Bhavesh)
+    }
+    if(Counter == 41){
+      setImagePath(Shivdhan)
+    }
+    if( Counter == 68){
+      setImagePath(Soham)
+    }
+    if(Counter == 25){
+      setImagePath(Kadam)
+    }
+    if( Counter== 36){
+      setImagePath(Abhay)
+    }
+    if(Counter == 31){
+      setImagePath(TusharM)
+    }
+    if(Counter == 6){
+      setImagePath(TusharA)
     }
   }
   const handleChange = (e) =>{
@@ -51,6 +102,27 @@ function App() {
     }
     else{
       setImagePath(HT)
+    }
+    if( Counter == 44){
+      setImagePath(Bhavesh)
+    }
+    if(Counter == 40){
+      setImagePath(Shivdhan)
+    }
+    if( Counter == 67){
+      setImagePath(Soham)
+    }
+    if( Counter == 24){
+      setImagePath(Kadam)
+    }
+    if(Counter == 35){
+      setImagePath(Abhay)
+    }
+    if(Counter == 30){
+      setImagePath(TusharM)
+    }
+    if(Counter == 5){
+      setImagePath(TusharA)
     }
     // e.target.value = ''
   }
